@@ -20,12 +20,12 @@ Following implementation has been done as per requirement:
 
 5. Convertion of the contents of the xml into a CSV with the following header:
 
-FinInstrmGnlAttrbts.Id
-FinInstrmGnlAttrbts.FullNm
-FinInstrmGnlAttrbts.ClssfctnTp
-FinInstrmGnlAttrbts.CmmdtyDerivInd
-FinInstrmGnlAttrbts.NtnlCcy
-Issr
+FinInstrmGnlAttrbts.Id,
+FinInstrmGnlAttrbts.FullNm,
+FinInstrmGnlAttrbts.ClssfctnTp,
+FinInstrmGnlAttrbts.CmmdtyDerivInd,
+FinInstrmGnlAttrbts.NtnlCcy,
+Issr.
 
 has been done. 
 
@@ -33,5 +33,6 @@ has been done.
 6. CSV has been saved after conversion
 
 Following things has not been performed by me:
+
 1. Upload CSV in AWS S3 bucket
 2. The above function should be run as an AWS Lambda (Optional)
