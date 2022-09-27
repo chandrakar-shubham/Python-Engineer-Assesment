@@ -1,4 +1,4 @@
-# Python-Engineer-Assesment
+# Python Engineer Assesment
 Contains assignment "Python Engineer Assesment" for SteelEye
 
 Brief:
